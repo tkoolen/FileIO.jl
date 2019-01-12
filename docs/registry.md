@@ -35,6 +35,7 @@
 | BMP | .bmp | loads and saves on **all** platforms with [QuartzImageIO](http:///github.com/JuliaIO/QuartzImageIO.jl.git) loads and saves on **all** platforms with [ImageMagick](http:///github.com/JuliaIO/ImageMagick.jl.git)  | UInt8[0x42,0x4d] |
 | GLSLShader | .frag, .vert, .geom, .comp | loads and saves on **all** platforms with [GLAbstraction](http:///github.com/JuliaGL/GLAbstraction.jl.git)  | only extension |
 | OBJ | .obj | loads and saves on **all** platforms with [MeshIO](http:///github.com/JuliaIO/MeshIO.jl.git)  | only extension |
+| DAE | .dae | loads and saves on **all** platforms with [MeshIO](http:///github.com/JuliaIO/MeshIO.jl.git)  | only extension |
 | PLY_ASCII | .ply | loads and saves on **all** platforms with [MeshIO](http:///github.com/JuliaIO/MeshIO.jl.git)  | ply
 format ascii 1.0 |
 | PLY_BINARY | .ply | loads and saves on **all** platforms with [MeshIO](http:///github.com/JuliaIO/MeshIO.jl.git)  | ply

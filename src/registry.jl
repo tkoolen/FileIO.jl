@@ -135,6 +135,7 @@ add_format(format"GLSLShader", (), [".frag", ".vert", ".geom", ".comp"], [:GLAbs
 
 # Mesh formats
 add_format(format"OBJ", (), ".obj", [:MeshIO])
+add_format(format"DAE", (), ".dae", [:MeshIO])
 add_format(format"PLY_ASCII", "ply\nformat ascii 1.0", ".ply", [:MeshIO])
 add_format(format"PLY_BINARY", "ply\nformat binary_little_endian 1.0", ".ply", [:MeshIO])
 add_format(format"2DM", "MESH2D", ".2dm", [:MeshIO])
